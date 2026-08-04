@@ -8,7 +8,7 @@ const productSchema = new mongoose.Schema(
     price: { type: Number, min: 0, required: true },
     quantity: { type: Number, min: 0, required: true },
   },
-  {
+  { 
     timestamps: true,
   }
 );
